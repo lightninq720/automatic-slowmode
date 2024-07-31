@@ -7,17 +7,17 @@ def colour_message(message: str, colour: str = COLOURS["default"]) -> str: # Use
     return colour + message + "\033[0m"
 
 def create_success_embed(title: str = "\u200b", description: str = "\u200b") -> nextcord.Embed:
-    embed = nextcord.Embed(title=title, description=description, color=COLOUR_GOOD)
+    embed = nextcord.Embed(title=title, description=description, colour=COLOUR_GOOD)
     embed.set_thumbnail(url="https://media.tenor.com/AWKzZ19awFYAAAAi/checkmark-transparent.gif") # Sets embed thumbnail
     return embed
 
 def create_warning_embed(title: str = "\u200b", description: str = "\u200b") -> nextcord.Embed:
-    embed = nextcord.Embed(title=title, description=description, color=COLOUR_NEUTRAL)
+    embed = nextcord.Embed(title=title, description=description, colour=COLOUR_NEUTRAL)
     embed.set_thumbnail(url="https://c.tenor.com/26pNa498OS0AAAAi/warning-joypixels.gif") # Sets embed thumbnail
     return embed
 
 def create_error_embed(title: str = "\u200b", description: str = "\u200b") -> nextcord.Embed:
-    embed = nextcord.Embed(title=title, description=description, color=COLOUR_BAD)
+    embed = nextcord.Embed(title=title, description=description, colour=COLOUR_BAD)
     embed.set_thumbnail(url="https://media.tenor.com/Gbp8h-dqDHkAAAAi/error.gif") # Sets embed thumbnail
     return embed
 
