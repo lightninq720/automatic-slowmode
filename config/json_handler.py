@@ -48,7 +48,7 @@ def json_remove_channel(channel_id: int) -> None:
     with open("config/settings.json", "w") as f: # Opens config json file in write mode and sets the new data
         json.dump(data, f)
 
-def get_slowmode_values() -> dict:
+def json_get_slowmode_values() -> dict:
     with open("config/slowmode_values.json", "r") as f:
         data = json.load(f)
 

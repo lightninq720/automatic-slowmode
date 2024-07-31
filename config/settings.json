@@ -1,6 +1,1 @@
-{
-    "enabled": true,
-
-    "channel_mode": "blacklist",
-    "channels": []
-}
+{"enabled": true, "channel_mode": "blacklist", "channels": []}

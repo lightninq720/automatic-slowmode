@@ -2,7 +2,7 @@ import nextcord
 from nextcord.abc import GuildChannel
 from nextcord.errors import NotFound
 from utils import create_success_embed, create_error_embed, create_warning_embed
-from config import get_channel_mode, get_role_mode, get_channels, get_roles, update_channel_mode, update_role_mode, add_channel, remove_channel, add_role, remove_role
+from config import get_channel_mode, get_channels, update_channel_mode, add_channel, remove_channel
 from constants import COLOUR_MAIN
 from typing import List
 from views.items import ChannelSelect, Role_Select

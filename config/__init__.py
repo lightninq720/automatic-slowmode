@@ -1,1 +1,1 @@
-from .config import get_channel_mode, get_channels, add_channel, remove_channel, update_channel_mode, get_enabled, set_enabled
+from .config import get_slowmode_values, get_channel_mode, get_channels, remove_channel, update_channel_mode, get_enabled, set_enabled, add_channel

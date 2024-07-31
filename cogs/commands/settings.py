@@ -2,7 +2,7 @@ import nextcord
 from nextcord.ext import commands
 from nextcord.abc import GuildChannel
 from nextcord.errors import NotFound
-from config import get_channel_mode, get_channels, get_role_mode, get_roles, remove_channel, remove_role
+from config import get_channel_mode, get_channels, remove_channel
 from utils import create_warning_embed
 from bot import Bot
 from views import Options

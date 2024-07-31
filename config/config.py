@@ -15,7 +15,7 @@ def get_enabled(guild_id: int) -> bool:
         print(errormessage)
 
 def get_slowmode_values() -> dict:
-    return get_slowmode_values()
+    return json_get_slowmode_values()
 
 def set_enabled(guild_id: int, val: bool) -> None:
     if DATABASE_MODE.lower() == "sql":
