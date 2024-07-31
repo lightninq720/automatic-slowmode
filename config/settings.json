@@ -1,9 +1,4 @@
 {
-    "slowmode_values": {
-        "100":5,
-        "200":10
-    },
-
     "enabled": true,
 
     "channel_mode": "blacklist",

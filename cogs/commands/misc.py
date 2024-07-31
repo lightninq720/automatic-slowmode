@@ -15,7 +15,7 @@ class Misc(commands.Cog):
         msg = await interaction.send("Loading bot information")
         ping = (time.monotonic() - before) * 1000 # Uses time module to calculate how long it takes to send a message
         embed = nextcord.Embed(title="Bot Infomation", description=f"Ping: {round(ping)}ms \nSupport Me: [Ko-fi]({KO_FI}) \nGitHub: [GitHub]({GITLINK})", colour=COLOUR_MAIN)
-        embed.set_footer(text="Coded by @_lightninq")
+        embed.set_footer(text="Coded by @_lightninq & @firestarad")
         await msg.edit(content = " ", embed=embed, view=BotInfoLinkButton()) # Edits message to add the embed
 
     @nextcord.slash_command(name="ping", description="Get the bot's ping")
