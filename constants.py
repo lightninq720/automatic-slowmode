@@ -24,5 +24,3 @@ DBUSER = os.environ['DBUSER'] # Gets the DBUSER from .env file
 DBPASS = os.environ['DBPASS'] # Gets the DBPASS from .env file
 DBNAME = os.environ['DBNAME'] # Gets the DBNAME from .env file
 DBPORT = int(os.environ['DBPORT']) # Gets the DBPORT from .env file
-
-DATABASE_MODE = "JSON" # USE EITHER "SQL" or "JSON" ONLY. Select the database mode you want to use. NB: JSON only supports single server uses
